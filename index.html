@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+      integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sushi | Enjoy Delicious</title>
+
+  </head>
+
+  <body>
+    <header id="header" class="header">
+      <nav class="nav container">
+        <a href="#" class="nav-logo">
+          <img src="assets/logo.png" alt="Logo">Sushi
+        </a>
+
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#popular" class="nav-link">Popular</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#recently" class="nav-link">Recently</a>
+            </li>
+          </ul>
+
+          <!-- Close Button -->
+          <div class="nav-close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav-buttons">
+          <!-- Theme button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="ri-apps-2-line"></i>
+          </div>
+        </div>
+        <!-- Toggle Button -->
+      </nav>
+    </header>
+
+    <main>
+      <section class="home section" id="home">
+        <div class="home-container container grid">
+          <img src="assets/home-sushi-rolls.png" alt="Image" class="home-img">
+          <div class="home-data">
+            <h1 class="home-title">Enjoy Delicious
+
+              <div>
+                <img src="assets/home-sushi-title.png" alt="Image">
+                Sushi Food
+              </div>
+            </h1>
+            <p class="home-desc">Enjoy a good dinner with the best dishes in
+              the restaurant and improve your day.</p>
+            <a href="#" class="button">Order Now</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-container container grid">
+          <img src="assets/about-sushi.png" alt="img" class="about-img">
+          <div class="about-data">
+            <p class="subtitles">About Us</p>
+            <h1 class="section-title">
+              We Provide <br>
+              Healthy Food
+            </h1>
+
+            <p class="about-desc">
+              Food comes to us from our relatives, whether they
+              have wings or roots. This is how we consider food,
+              it also has a culture. It has a history that passes
+              from generation to generation.
+            </p>
+          </div>
+
+
+        </div>
+      </section>
+
+      <section class="popular " id="popular">
+        <p class="subtitles">The Best Sushi</p>
+        <h2 class="section-title">
+          Popular Dishes
+        </h2>
+        <div class="popular-container container grid">
+          <article class="popular-card ">
+            <div class="popular-bg"></div>
+            <img src="assets/popular-onigiri.png" alt="" class="popular-img">
+            <h3 class="popular-title">Onigiri</h3>
+            <span class="popular-subtitle">Japanese Sushi</span>
+            <h3 class="popular-price">$10.00</h3>
+            <button class="popular-button button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="popular-card swiper-slide">
+            <div class="popular-bg"></div>
+            <img src="assets/popular-spring-rols.png" alt="" class="popular-img">
+            <h3 class="popular-title">Spring Rolls</h3>
+            <span class="popular-subtitle">Japanese Sushi</span>
+            <h3 class="popular-price">$15.00</h3>
+            <button class="popular-button button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="popular-card swiper-slide">
+            <div class="popular-bg"></div>
+            <img src="assets/popular-sushi-rolls.png" alt="" class="popular-img">
+            <h3 class="popular-title">Sushi Rolls</h3>
+            <span class="popular-subtitle">Japanese Sushi</span>
+            <h3 class="popular-price">$19.00</h3>
+            <button class="popular-button button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+      </section>
+
+      <section class="recently section" id="recently">
+        <div class="recently-container container grid">
+          <div class="recently-data">
+            <p class="subtitles">Recently Added</p>
+            <h2 class="section-title">Sushi Samurai <br>
+              Salmón Cheese</h2>
+            <p class="recently-desc">
+              Take a look at what's new. And do not deprive
+              yourself of a good meal, enjoy and be happy.
+            </p>
+            <a href="#" class="button">Order Now</a>
+          </div>
+          <img src="assets/recently-salmon-sushi.png" alt="Sushi img" class="recently-img">
+        </div>
+      </section>
+
+
+      <section class="newsletter section">
+        <div class="newsletter-container container">
+          <div class="newsletter-content grid">
+            <img src="assets/newsletter-sushi.png" alt="newsletter img" class="newsletter-img">
+            <div class="newsletter-data">
+              <p class="subtitles">Newsletter</p>
+              <h2 class="section-title">Subscribe For <br>
+                Offer Updates
+              </h2>
+
+              <form action="POST" class="newsletter-form" autocomplete="off">
+                <input type="text" class="newsletter-input" placeholder="Enter E-mail" required>
+                <button class="button ">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <footer class="footer" id="footer">
+        <div class="footer-container container grid">
+          <div>
+            <a href="#" class="footer-logo">
+              <img src="assets/logo.png" alt="Logo">
+            </a>
+
+            <p class="footer-desc">
+              Food for the body is not <br>
+              enough. There must be food <br>
+              for the soul.
+            </p>
+          </div>
+          <div class="footer-data grid">
+            <div>
+              <h3 class="footer-title">Company</h3>
+              <ul class="footer-links">
+                <li>
+                  <a href="#" class="footer-link">FAQs</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">About Us</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer-title">News</h3>
+              <ul class="footer-links">
+                <li>
+                  <a href="#" class="footer-link">Features</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Testimional</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Videos</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer-title">Address</h3>
+              <ul class="footer-links">
+                <li class="footer-info">
+                  Av. Hacienda 1234 <br>
+                  Lima 4321, Peru
+                </li>
+
+                <li class="footer-info">
+                  9AM - 11PM
+                </li>
+
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer-title">Social Media</h3>
+              <div class="footer-social">
+                <a href="https://www.facebook.com/" class="footer-social-link">
+                  <i class="ri-facebook-circle-line"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" class="footer-social-link">
+                  <i class="ri-instagram-line"></i>
+                </a>
+
+                <a href="https://www.youtube.com/" class="footer-social-link">
+                  <i class="ri-youtube-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-credit container">
+          <div class="footer-card">
+            <img src="assets/footer-card-1.png" alt="card img" class="footer-img">
+            <img src="assets/footer-card-2.png" alt="card img" class="footer-img">
+            <img src="assets/footer-card-3.png" alt="card img" class="footer-img">
+            <img src="assets/footer-card-4.png" alt="card img" class="footer-img">
+          </div>
+        </div>
+        <span class="footer-copy">&#169; All Rights Reserved By Sinem</span>
+      </footer>
+    </main>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/scrollreveal"></script>
+  </body>
+
+</html>
